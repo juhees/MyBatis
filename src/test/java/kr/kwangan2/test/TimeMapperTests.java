@@ -20,7 +20,7 @@ public class TimeMapperTests {
 	
 	@Test
 	public void testGetTime() {
-		log.info(timeMapper.getClass().getName());
+		log.info(timeMapper.getClass().getName());//실제 동작하는 클래스의 이름을 확인해줌. 
 		log.info(timeMapper.getTime());
 	}
 	
