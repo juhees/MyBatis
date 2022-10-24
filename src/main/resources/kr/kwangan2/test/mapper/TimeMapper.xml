@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  <mapper namespace="kr.kwangan2.test.mapper.TimeMapper"> <!-- select query하나가 됨  -->
+	  	<select id="getTime2" resultType="string"> <!-- sysdate가 나오면 string으로 반환하겠다 -->
+	  		select sysdate from dual <!-- 쿼리문이 들어가는곳 -->
+	  	</select>
+  </mapper>
